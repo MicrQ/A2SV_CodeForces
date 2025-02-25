@@ -4,9 +4,9 @@ dragons = []
 
 for i in range(dragons_num):
 
-    dragons += [tuple(map(int, input().split()))]
+    dragons.append(tuple(map(int, input().split())))
 
-dragons.sort()
+dragons.sort(key=lambda x: x[0])
 
 for dragon, bonus in dragons:
 

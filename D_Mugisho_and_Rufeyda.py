@@ -2,7 +2,6 @@ digits, divisor = (map(int, input().split()))
 
 max_num = 10 ** digits
 min_num = 10 ** (digits - 1)
-min_ = 10 ** (digits - 1)
 
 while min_num < max_num:
     val = min_num // divisor
